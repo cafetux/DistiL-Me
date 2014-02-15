@@ -6,7 +6,7 @@ class Configuration
         :consumer_secret      => nil,
         :access_token         => nil,
         :access_token_secret  => nil,
-        :filename            => nil
+        :filename            => "resources/in/waiting_items.txt"
     }
   end
   def get()
