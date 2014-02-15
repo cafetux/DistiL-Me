@@ -3,7 +3,7 @@ class Console
 
   end
   def send(text)
-    puts text
+    puts "simple out:"+text
   end
 
 end

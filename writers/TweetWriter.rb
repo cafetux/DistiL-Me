@@ -18,6 +18,7 @@ class TweetWriter
     end
   end
   def send(text)
+    puts "tweets: "+text
     @client.update(text)
   end
 
